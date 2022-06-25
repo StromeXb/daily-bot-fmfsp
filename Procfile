@@ -1,1 +1,1 @@
-worker: java -jar target/DailyBot-0.1.jar
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* ru.bot.DailyBot
