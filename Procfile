@@ -1,1 +1,1 @@
-heroku ps:scale web=2
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* ru.bot.DailyBot
